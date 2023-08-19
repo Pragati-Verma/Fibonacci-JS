@@ -3,6 +3,8 @@ function fibonacciGenerator (n) {
     var arr = [];
     if(n === 0 || n === 1)
         return [0];
+    if(n === 2)
+        return [0,1];
         
     var num1 = 0;
     var num2 = 1;
